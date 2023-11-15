@@ -24,6 +24,10 @@ main {
   background-color: #2d82b7;
 }
 
+h1 {
+  color: white;
+}
+
 /*
 ******
 Css Colors
@@ -62,6 +66,15 @@ Body
 Header
 ******
 */
+
+.container-header {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*
 ******
