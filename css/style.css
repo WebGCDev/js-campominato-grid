@@ -77,9 +77,10 @@ Main
 }
 
 .square {
-  width: calc(100% / 7);
+  width: calc(100% / 10);
   border: 2px solid #272343;
   background-color: #ff5470;
+  cursor: pointer;
 }
 
 /*
