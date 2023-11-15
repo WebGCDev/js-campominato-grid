@@ -10,6 +10,20 @@ Reset
   box-sizing: border-box;
 }
 
+header,
+footer {
+  height: 100px;
+  background-color: #07004d;
+}
+
+main {
+  height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d82b7;
+}
+
 /*
 ******
 Css Colors
@@ -54,6 +68,19 @@ Header
 Main
 ******
 */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+
+.square {
+  width: calc(100% / 10);
+  border: 2px solid #272343;
+  background-color: #ff5470;
+}
 
 /*
 ******
