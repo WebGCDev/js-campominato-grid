@@ -96,6 +96,10 @@ Main
   cursor: pointer;
 }
 
+.square.checked {
+  background-color: lightgray;
+}
+
 /*
 ******
 Footer
