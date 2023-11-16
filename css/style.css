@@ -90,7 +90,7 @@ Main
 }
 
 .square {
-  width: calc(100% / 10);
+  /* width: calc(100% / 10); Non serve più avendo creato regole per livelli */
   border: 2px solid #272343;
   background-color: #ff5470;
   cursor: pointer;
@@ -98,6 +98,18 @@ Main
 
 .square.checked {
   background-color: lightgray;
+}
+
+.square.facile {
+  width: calc(100% / 10);
+}
+
+.square.normale {
+  width: calc(100% / 9);
+}
+
+.square.difficile {
+  width: calc(100% / 7);
 }
 
 /*
